@@ -1,0 +1,47 @@
+Spiel starten?
+	Score=0
+	
+	1.
+	Zufällige Felder Reinfolge von  1 2 3 4
+
+	2.
+	A= 1. von zufälliger Reinfolge
+	B= 2. von zufälliger Reinfolge
+	C= 3. von zufälliger Reinfolge
+	D= 4. von zufälliger Reinfolge 
+ 
+	3.     
+	A leuchtet
+	0,5 sec. warten
+	
+	B leuchtet
+	0,5 sec. warten
+
+	C leuchtet
+	0,5 sec. warten
+
+	D leuchtet
+	0,5 sec. warten
+
+
+	4.
+	Wenn A gedrückt -> Schritt 5
+	Wenn  B C D gedrückt -> alle blinken und und Score -1 und Schritt 3
+	
+	5.
+	Wenn B gedrückt -> Schritt 6
+	Wenn  A C D gedrückt -> alle blinken und und Score -1 und Schritt 3
+	
+	6.
+	Wenn C gedrückt -> Schritt 7
+	Wenn  A B D gedrückt -> alle blinken und und Score -1 und Schritt 3
+	
+	7.
+	Wenn D gedrückt -> Score +1 und Schritt 8
+	Wenn  A B C gedrückt -> alle blinken und und Score -1 und Schritt 3
+	
+	8.
+	Wenn Score =5 -> 5 sec. Gewinn screen -> Title screen
+	Wenn Score <5 Schritt 1
+
+	
